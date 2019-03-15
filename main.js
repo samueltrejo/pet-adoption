@@ -242,8 +242,8 @@ const petCardifier = (array) => {
     domString += `<h3>${pet.name}</h3>`;
     domString += `<img src=${pet.imageUrl}>`
     domString += `<p>${pet.color}</p>`
-    domString += `<p>${pet.specialSkill}</p>`
-    domString += `<p>${pet.type}</p>`
+    domString += `<p class="skill">${pet.specialSkill}</p>`
+    domString += `<p class=${pet.type}>${pet.type}</p>`
     domString += `</div>`
   })
   printToDom('pet-container', domString)
@@ -255,6 +255,7 @@ const printToDom = (divId, textToPrint) => {
 }
 
 const init = () => {
+  petCardifier(pets)
   eventListeners()
 }
 
