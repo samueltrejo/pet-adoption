@@ -1,3 +1,114 @@
 body {
   background-color: aliceblue;
+  width: 75%;
+  margin: auto;
+}
+
+#pet-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.pet-card {
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  width: 30%;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+h3 {
+  background-color: lightgrey;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: grey;
+}
+
+img {
+  margin-top: 15px;
+  padding: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+p {
+  text-align: center;
+}
+
+.cat {
+  background-color: lightskyblue;
+  margin: 0;
+  padding: 15px;
+}
+
+.dog {
+  background-color: lightgreen;
+  padding: 15px;
+  margin: 0;
+}
+
+.dino {
+  background-color: lightsalmon;
+  padding: 15px;
+  margin: 0;
+}
+
+.skill {
+  height: 30px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+}
+
+#buttons button {
+  margin: 25px;
+  height: 30px;
+  width: 75px;
+  font-size: 16px;
+}
+
+#cat {
+  outline: 0;
+  border: 0;
+  background-color: lightskyblue;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#dog {
+  outline: 0;
+  border: 0;
+  background-color: lightgreen;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#dino {
+  outline: 0;
+  border: 0;
+  background-color: lightsalmon;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#all {
+  outline: 0;
+  border: 0;
+  background-color: lightgrey;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
 }
